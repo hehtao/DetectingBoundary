@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F2872B41FB28D9C00699715 /* number.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2872B31FB28D9C00699715 /* number.png */; };
+		2F51F1151F99F14D00A5011D /* er.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F51F1141F99F14C00A5011D /* er.png */; };
+		2F51F1171F99F27B00A5011D /* san.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F51F1161F99F27B00A5011D /* san.png */; };
+		2F7AE1731FBA8D90001C7AB8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7AE1721FBA8D90001C7AB8 /* HomeViewController.m */; };
+		2F8E94B01FB42129000FD3D5 /* mao.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E94AF1FB42129000FD3D5 /* mao.png */; };
+		2FAE1D691FB17F3500C463D3 /* xianyu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FAE1D681FB17F3500C463D3 /* xianyu.jpg */; };
+		2FAE1D6D1FB19F3900C463D3 /* snip.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FAE1D6C1FB19F3900C463D3 /* snip.png */; };
+		2FEA39141FBAB13C00BF59F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEA39131FBAB13C00BF59F8 /* Images.xcassets */; };
+		2FEA391B1FBAE29A00BF59F8 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 2FEA391A1FBAE29A00BF59F8 /* tessdata */; };
+		8360CD9617366B6100A0F806 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8360CD9517366B6100A0F806 /* UIKit.framework */; };
+		8360CD9817366B6100A0F806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8360CD9717366B6100A0F806 /* Foundation.framework */; };
+		8360CD9A17366B6100A0F806 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8360CD9917366B6100A0F806 /* CoreGraphics.framework */; };
+		8360CDA017366B6100A0F806 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8360CD9E17366B6100A0F806 /* InfoPlist.strings */; };
+		8360CDA217366B6100A0F806 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8360CDA117366B6100A0F806 /* main.m */; };
+		8360CDA617366B6100A0F806 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8360CDA517366B6100A0F806 /* AppDelegate.m */; };
+		8360CDA817366B6100A0F806 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8360CDA717366B6100A0F806 /* Default.png */; };
+		8360CDAA17366B6100A0F806 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8360CDA917366B6100A0F806 /* Default@2x.png */; };
+		8360CDAC17366B6100A0F806 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8360CDAB17366B6100A0F806 /* Default-568h@2x.png */; };
+		8360CDAF17366B6100A0F806 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8360CDAD17366B6100A0F806 /* MainStoryboard_iPhone.storyboard */; };
+		8360CDB217366B6100A0F806 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8360CDB017366B6100A0F806 /* MainStoryboard_iPad.storyboard */; };
+		8360CDB517366B6100A0F806 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8360CDB417366B6100A0F806 /* ViewController.m */; };
+		8360CDBC17366B7400A0F806 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8360CDBB17366B7400A0F806 /* opencv2.framework */; };
+		8360CDBE17366D3600A0F806 /* lena.png in Resources */ = {isa = PBXBuildFile; fileRef = 8360CDBD17366D3600A0F806 /* lena.png */; };
+		8360CDC017366D4A00A0F806 /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8360CDBF17366D4A00A0F806 /* haarcascade_frontalface_alt.xml */; };
+		E7BCD428A1C6FB4A4092494D /* libPods-Chapter04_DetectingFaces.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E86C9BAFE697E1AB72BCF4 /* libPods-Chapter04_DetectingFaces.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F2872B31FB28D9C00699715 /* number.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number.png; sourceTree = "<group>"; };
+		2F51F1141F99F14C00A5011D /* er.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = er.png; sourceTree = "<group>"; };
+		2F51F1161F99F27B00A5011D /* san.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = san.png; sourceTree = "<group>"; };
+		2F7AE1711FBA8D90001C7AB8 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2F7AE1721FBA8D90001C7AB8 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2F8E94AF1FB42129000FD3D5 /* mao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mao.png; sourceTree = "<group>"; };
+		2FAE1D681FB17F3500C463D3 /* xianyu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xianyu.jpg; sourceTree = "<group>"; };
+		2FAE1D6C1FB19F3900C463D3 /* snip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snip.png; sourceTree = "<group>"; };
+		2FEA39131FBAB13C00BF59F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FEA391A1FBAE29A00BF59F8 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = Chapter04_DetectingFaces/tessdata; sourceTree = "<group>"; };
+		38E86C9BAFE697E1AB72BCF4 /* libPods-Chapter04_DetectingFaces.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Chapter04_DetectingFaces.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393377D45C561E7433015D87 /* Pods-Chapter04_DetectingFaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chapter04_DetectingFaces.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chapter04_DetectingFaces/Pods-Chapter04_DetectingFaces.debug.xcconfig"; sourceTree = "<group>"; };
+		564668A90172C1E19CFE41F5 /* Pods-Chapter04_DetectingFaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chapter04_DetectingFaces.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chapter04_DetectingFaces/Pods-Chapter04_DetectingFaces.release.xcconfig"; sourceTree = "<group>"; };
+		8360CD9117366B6100A0F806 /* Chapter04_DetectingFaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter04_DetectingFaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8360CD9517366B6100A0F806 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8360CD9717366B6100A0F806 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8360CD9917366B6100A0F806 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8360CD9D17366B6100A0F806 /* Chapter04_DetectingFaces-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chapter04_DetectingFaces-Info.plist"; sourceTree = "<group>"; };
+		8360CD9F17366B6100A0F806 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8360CDA117366B6100A0F806 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8360CDA317366B6100A0F806 /* Chapter04_DetectingFaces-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chapter04_DetectingFaces-Prefix.pch"; sourceTree = "<group>"; };
+		8360CDA417366B6100A0F806 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8360CDA517366B6100A0F806 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8360CDA717366B6100A0F806 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8360CDA917366B6100A0F806 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8360CDAB17366B6100A0F806 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8360CDAE17366B6100A0F806 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8360CDB117366B6100A0F806 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8360CDB317366B6100A0F806 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8360CDB417366B6100A0F806 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8360CDBB17366B7400A0F806 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../opencv2.framework; sourceTree = "<group>"; };
+		8360CDBD17366D3600A0F806 /* lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lena.png; sourceTree = "<group>"; };
+		8360CDBF17366D4A00A0F806 /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8360CD8E17366B6100A0F806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8360CD9617366B6100A0F806 /* UIKit.framework in Frameworks */,
+				8360CD9817366B6100A0F806 /* Foundation.framework in Frameworks */,
+				8360CD9A17366B6100A0F806 /* CoreGraphics.framework in Frameworks */,
+				8360CDBC17366B7400A0F806 /* opencv2.framework in Frameworks */,
+				E7BCD428A1C6FB4A4092494D /* libPods-Chapter04_DetectingFaces.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A4C8D1C653D0A8580E6ACA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				393377D45C561E7433015D87 /* Pods-Chapter04_DetectingFaces.debug.xcconfig */,
+				564668A90172C1E19CFE41F5 /* Pods-Chapter04_DetectingFaces.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8360CD8617366B6100A0F806 = {
+			isa = PBXGroup;
+			children = (
+				2FEA391A1FBAE29A00BF59F8 /* tessdata */,
+				8360CD9B17366B6100A0F806 /* Chapter04_DetectingFaces */,
+				8360CD9417366B6100A0F806 /* Frameworks */,
+				8360CD9217366B6100A0F806 /* Products */,
+				14A4C8D1C653D0A8580E6ACA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8360CD9217366B6100A0F806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8360CD9117366B6100A0F806 /* Chapter04_DetectingFaces.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8360CD9417366B6100A0F806 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8360CDBB17366B7400A0F806 /* opencv2.framework */,
+				8360CD9517366B6100A0F806 /* UIKit.framework */,
+				8360CD9717366B6100A0F806 /* Foundation.framework */,
+				8360CD9917366B6100A0F806 /* CoreGraphics.framework */,
+				38E86C9BAFE697E1AB72BCF4 /* libPods-Chapter04_DetectingFaces.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8360CD9B17366B6100A0F806 /* Chapter04_DetectingFaces */ = {
+			isa = PBXGroup;
+			children = (
+				8360CDA417366B6100A0F806 /* AppDelegate.h */,
+				8360CDA517366B6100A0F806 /* AppDelegate.m */,
+				8360CDAD17366B6100A0F806 /* MainStoryboard_iPhone.storyboard */,
+				8360CDB017366B6100A0F806 /* MainStoryboard_iPad.storyboard */,
+				8360CDB317366B6100A0F806 /* ViewController.h */,
+				8360CDB417366B6100A0F806 /* ViewController.m */,
+				2F7AE1711FBA8D90001C7AB8 /* HomeViewController.h */,
+				2F7AE1721FBA8D90001C7AB8 /* HomeViewController.m */,
+				2FEA39131FBAB13C00BF59F8 /* Images.xcassets */,
+				8360CD9C17366B6100A0F806 /* Supporting Files */,
+			);
+			path = Chapter04_DetectingFaces;
+			sourceTree = "<group>";
+		};
+		8360CD9C17366B6100A0F806 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F8E94AF1FB42129000FD3D5 /* mao.png */,
+				2F2872B31FB28D9C00699715 /* number.png */,
+				2F51F1161F99F27B00A5011D /* san.png */,
+				2F51F1141F99F14C00A5011D /* er.png */,
+				2FAE1D6C1FB19F3900C463D3 /* snip.png */,
+				2FAE1D681FB17F3500C463D3 /* xianyu.jpg */,
+				8360CDBF17366D4A00A0F806 /* haarcascade_frontalface_alt.xml */,
+				8360CDBD17366D3600A0F806 /* lena.png */,
+				8360CD9D17366B6100A0F806 /* Chapter04_DetectingFaces-Info.plist */,
+				8360CD9E17366B6100A0F806 /* InfoPlist.strings */,
+				8360CDA117366B6100A0F806 /* main.m */,
+				8360CDA317366B6100A0F806 /* Chapter04_DetectingFaces-Prefix.pch */,
+				8360CDA717366B6100A0F806 /* Default.png */,
+				8360CDA917366B6100A0F806 /* Default@2x.png */,
+				8360CDAB17366B6100A0F806 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8360CD9017366B6100A0F806 /* Chapter04_DetectingFaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8360CDB817366B6100A0F806 /* Build configuration list for PBXNativeTarget "Chapter04_DetectingFaces" */;
+			buildPhases = (
+				C1D6C48FFB5ECB979B6F196D /* [CP] Check Pods Manifest.lock */,
+				8360CD8D17366B6100A0F806 /* Sources */,
+				8360CD8E17366B6100A0F806 /* Frameworks */,
+				8360CD8F17366B6100A0F806 /* Resources */,
+				D6FB7549587AD11D6C844D01 /* [CP] Embed Pods Frameworks */,
+				5C615D708F222AD0C2740F7C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chapter04_DetectingFaces;
+			productName = Chapter04_DetectingFaces;
+			productReference = 8360CD9117366B6100A0F806 /* Chapter04_DetectingFaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8360CD8817366B6100A0F806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = DTGIG;
+				TargetAttributes = {
+					8360CD9017366B6100A0F806 = {
+						DevelopmentTeam = N2ZT238XG8;
+					};
+				};
+			};
+			buildConfigurationList = 8360CD8B17366B6100A0F806 /* Build configuration list for PBXProject "Chapter04_DetectingFaces" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8360CD8617366B6100A0F806;
+			productRefGroup = 8360CD9217366B6100A0F806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8360CD9017366B6100A0F806 /* Chapter04_DetectingFaces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8360CD8F17366B6100A0F806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8360CDA017366B6100A0F806 /* InfoPlist.strings in Resources */,
+				2FEA391B1FBAE29A00BF59F8 /* tessdata in Resources */,
+				2F2872B41FB28D9C00699715 /* number.png in Resources */,
+				8360CDA817366B6100A0F806 /* Default.png in Resources */,
+				2F51F1171F99F27B00A5011D /* san.png in Resources */,
+				8360CDAA17366B6100A0F806 /* Default@2x.png in Resources */,
+				2F8E94B01FB42129000FD3D5 /* mao.png in Resources */,
+				2FEA39141FBAB13C00BF59F8 /* Images.xcassets in Resources */,
+				2F51F1151F99F14D00A5011D /* er.png in Resources */,
+				2FAE1D6D1FB19F3900C463D3 /* snip.png in Resources */,
+				8360CDAC17366B6100A0F806 /* Default-568h@2x.png in Resources */,
+				2FAE1D691FB17F3500C463D3 /* xianyu.jpg in Resources */,
+				8360CDAF17366B6100A0F806 /* MainStoryboard_iPhone.storyboard in Resources */,
+				8360CDB217366B6100A0F806 /* MainStoryboard_iPad.storyboard in Resources */,
+				8360CDBE17366D3600A0F806 /* lena.png in Resources */,
+				8360CDC017366D4A00A0F806 /* haarcascade_frontalface_alt.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C615D708F222AD0C2740F7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chapter04_DetectingFaces/Pods-Chapter04_DetectingFaces-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D6C48FFB5ECB979B6F196D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chapter04_DetectingFaces-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6FB7549587AD11D6C844D01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chapter04_DetectingFaces/Pods-Chapter04_DetectingFaces-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8360CD8D17366B6100A0F806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8360CDA217366B6100A0F806 /* main.m in Sources */,
+				8360CDA617366B6100A0F806 /* AppDelegate.m in Sources */,
+				8360CDB517366B6100A0F806 /* ViewController.m in Sources */,
+				2F7AE1731FBA8D90001C7AB8 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8360CD9E17366B6100A0F806 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8360CD9F17366B6100A0F806 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8360CDAD17366B6100A0F806 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8360CDAE17366B6100A0F806 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8360CDB017366B6100A0F806 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8360CDB117366B6100A0F806 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8360CDB617366B6100A0F806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8360CDB717366B6100A0F806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8360CDB917366B6100A0F806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393377D45C561E7433015D87 /* Pods-Chapter04_DetectingFaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = N2ZT238XG8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chapter04_DetectingFaces/Chapter04_DetectingFaces-Prefix.pch";
+				INFOPLIST_FILE = "Chapter04_DetectingFaces/Chapter04_DetectingFaces-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "OpenCV.Chapter04-DetectingFaces--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8360CDBA17366B6100A0F806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564668A90172C1E19CFE41F5 /* Pods-Chapter04_DetectingFaces.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = N2ZT238XG8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chapter04_DetectingFaces/Chapter04_DetectingFaces-Prefix.pch";
+				INFOPLIST_FILE = "Chapter04_DetectingFaces/Chapter04_DetectingFaces-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "OpenCV.Chapter04-DetectingFaces--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8360CD8B17366B6100A0F806 /* Build configuration list for PBXProject "Chapter04_DetectingFaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8360CDB617366B6100A0F806 /* Debug */,
+				8360CDB717366B6100A0F806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8360CDB817366B6100A0F806 /* Build configuration list for PBXNativeTarget "Chapter04_DetectingFaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8360CDB917366B6100A0F806 /* Debug */,
+				8360CDBA17366B6100A0F806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8360CD8817366B6100A0F806 /* Project object */;
+}
